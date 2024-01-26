@@ -42,3 +42,12 @@
     font-size: 12px;
     color: #6C727F;
 }
+
+@media screen and (max-width:600px) {
+    .blog{
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+    }
+}
